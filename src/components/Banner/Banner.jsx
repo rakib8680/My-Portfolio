@@ -2,17 +2,25 @@ import React from 'react';
 import Wave from 'react-wavify'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import profile from '../../assets/profile.png'
 AOS.init();
 
 const Banner = () => {
     return (
         <div>
-            <div className='h-[60vh] flex justify-center items-center'
-                data-aos="fade-down"
-                data-aos-duration="1500"
-                data-aos-easing="ease-in-out"
+            <div className='h-[50vh] flex justify-center items-center justify-evenly'
             >
-                <h1 className='text-4xl '> Welcome to my Portfolio</h1>
+                <h1 className='text-4xl '
+                    data-aos="fade-down"
+                    data-aos-duration="1500"
+                    data-aos-easing="ease-in-out"> Welcome to my Portfolio</h1>
+                <div
+                    data-aos="fade-left"
+                    data-aos-duration="1500"
+                    data-aos-easing="ease-in-out"
+                    className='mask mask-squircle bg-blue-600 backdrop-blur-md bg-opacity-50 profile-shadow'>
+                    <img className='w-96' src={profile} />
+                </div>
             </div>
             <Wave
                 data-aos="fade-up"
