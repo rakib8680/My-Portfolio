@@ -8,9 +8,9 @@ AOS.init();
 const Banner = () => {
     return (
         <div>
-            <div className='h-[50vh] flex justify-center items-center justify-evenly'
+            <div className='h-[60vh] flex  items-center justify-evenly z-20'
             >
-                <h1 className='text-4xl '
+                <h1 className='text-4xl'
                     data-aos="fade-down"
                     data-aos-duration="1500"
                     data-aos-easing="ease-in-out"> Welcome to my Portfolio</h1>
