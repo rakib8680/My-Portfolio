@@ -102,7 +102,7 @@
     0 0 5px #fff,
     0 0 0px #fff,
     0 0 0px #97a5ff,
-    0 0 20px #97a5ff,
+    0 0 10px #97a5ff,
     0 0 5px #97a5ff,
     0 0 50px #97a5ff,
     0 0 70px #97a5ff;
@@ -123,4 +123,7 @@
 
 .fancy-boarder{
   border-radius: 30% 70% 70% 30% / 30% 44% 56% 70% ;
+}
+.fancy-boarder2{
+  border-radius: 0% 100% 100% 100% / 0% 100% 0% 100%  ;
 }

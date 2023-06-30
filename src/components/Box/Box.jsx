@@ -5,7 +5,6 @@ const Box = () => {
     return (
         <div className=' flex justify-center  relative bottom-40'>
             <motion.div
-                className=""
                 whileHover={{ scale: 1.2, rotate: 90 }}
                 whileTap={{ scale: 0.8, rotate: -90, borderRadius: "100%" }}
             >
