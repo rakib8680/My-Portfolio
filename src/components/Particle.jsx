@@ -25,7 +25,7 @@ const Particle = () => {
             options={
                 {
                     background: {
-                        color: "#ffff"
+                        color: "#000"
                     },
                     fpsLimit: 120,
                     fullScreen: {
@@ -59,7 +59,7 @@ const Particle = () => {
                             value: "#000",
                         },
                         links: {
-                            color: "#000",
+                            color: "#97a5ff",
                             distance: 150,
                             enable: true,
                             opacity: 0.5,
