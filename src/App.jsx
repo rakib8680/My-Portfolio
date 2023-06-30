@@ -8,7 +8,7 @@ import Particle from './components/Particle';
 const App = () => {
   return (
     <div >
-      <NabBar />
+      {/* <NabBar /> */}
       <Banner />
       <Particle />
       <Nothing />
