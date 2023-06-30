@@ -85,6 +85,7 @@
     0 0 50px #97a5ff,
     0 0 70px #97a5ff;
 }
+
 .neonText2 {
   color: #ffffff;
   box-shadow:
@@ -98,3 +99,15 @@
     0 0 70px #97a5ff;
 }
 
+.neonText2:hover {
+  color: #ffffff;
+  box-shadow:
+    0 0 0px #fff,
+    0 0 5px #fff,
+    0 0 0px #fff,
+    0 0 0px #6176ff,
+    0 0 20px #6176ff,
+    0 0 5px #6176ff,
+    0 0 50px #6176ff,
+    0 0 70px #6176ff;
+}

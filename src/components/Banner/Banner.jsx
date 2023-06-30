@@ -54,31 +54,41 @@ const Banner = () => {
                         <img className='w-96' src={profile} />
                     </div>
                     <div className='flex gap-7 mt-5'>
-                        <FaInstagram className='neonText2 rounded-full p-2' size={40}
-                            data-aos="fade-down"
-                            data-aos-duration="2000"
-                            data-aos-delay="2000"
-                            data-aos-easing="ease-in-out" />
-                        <FaTwitter className='neonText2 rounded-full p-2' size={40}
-                            data-aos="fade-down"
-                            data-aos-duration="2000"
-                            data-aos-delay="2200"
-                            data-aos-easing="ease-in-out" />
-                        <FaFacebook className='neonText2 rounded-full p-2' size={40}
-                            data-aos="fade-down"
-                            data-aos-duration="2000"
-                            data-aos-delay="2400"
-                            data-aos-easing="ease-in-out" />
-                        <FaGithub className='neonText2 rounded-full p-2' size={40}
-                            data-aos="fade-down"
-                            data-aos-duration="2000"
-                            data-aos-delay="2600"
-                            data-aos-easing="ease-in-out" />
-                        <FaLinkedin className='neonText2 rounded-full p-2' size={40}
-                            data-aos="fade-down"
-                            data-aos-duration="2000"
-                            data-aos-delay="2800"
-                            data-aos-easing="ease-in-out" />
+                        <a href="https://www.instagram.com/rakib_8680_/">
+                            <FaInstagram className='neonText2  rounded-full p-2' size={40}
+                                data-aos="fade-down"
+                                data-aos-duration="2000"
+                                data-aos-delay="2000"
+                                data-aos-easing="ease-in-out" />
+                        </a>
+                        <a href="https://www.twitter.com/rakib8680">
+                            <FaTwitter className='neonText2 rounded-full p-2' size={40}
+                                data-aos="fade-down"
+                                data-aos-duration="2000"
+                                data-aos-delay="2200"
+                                data-aos-easing="ease-in-out" />
+                        </a>
+                        <a href="https://www.twitter.com/rakib8680">
+                            <FaFacebook className='neonText2 rounded-full p-2' size={40}
+                                data-aos="fade-down"
+                                data-aos-duration="2000"
+                                data-aos-delay="2400"
+                                data-aos-easing="ease-in-out" />
+                        </a>
+                        <a href="https://github.com/rakib8680">
+                            <FaGithub className='neonText2 rounded-full p-2' size={40}
+                                data-aos="fade-down"
+                                data-aos-duration="2000"
+                                data-aos-delay="2600"
+                                data-aos-easing="ease-in-out" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/rakib-khan-91354a278/">
+                            <FaLinkedin className='neonText2 rounded-full p-2' size={40}
+                                data-aos="fade-down"
+                                data-aos-duration="2000"
+                                data-aos-delay="2800"
+                                data-aos-easing="ease-in-out" />
+                        </a>
                     </div>
                 </div>
             </div>
