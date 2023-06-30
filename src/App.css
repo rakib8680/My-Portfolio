@@ -19,7 +19,7 @@
 }
 
 .custom-shape-divider-top-1687948252 .shape-fill {
-  fill: #ffffff;
+  fill: #000000;
 }
 
 .content {
@@ -71,6 +71,15 @@
   }
 }
 
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: #97a5ff;
+  transform-origin: 0%;
+}
 
 
 .neonText {

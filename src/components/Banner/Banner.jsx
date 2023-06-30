@@ -1,5 +1,4 @@
 import React from 'react';
-import Wave from 'react-wavify'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { FaAngleRight, FaFacebook, FaInstagram, FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
@@ -92,20 +91,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            {/* <Wave
-                data-aos="fade-up"
-                data-aos-duration="1500"
-                data-aos-easing="ease-in-out"
-                fill='#9ba9ff'
-                className='h-96'
-                paused={false}
-                options={{
-                    height: 10,
-                    amplitude: 60,
-                    speed: 0.15,
-                    points: 3
-                }}
-            /> */}
+           
         </div>
     );
 };
