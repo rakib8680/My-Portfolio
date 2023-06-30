@@ -21,8 +21,8 @@ const App = () => {
       <motion.div className="progress-bar z-10" style={{ scaleX }} />
       {/* <NabBar /> */}
       <Banner />
-      <Particle />
       <About />
+      <Particle />
     </div>
   );
 };

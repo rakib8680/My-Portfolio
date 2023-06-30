@@ -120,3 +120,7 @@
     0 0 50px #6176ff,
     0 0 70px #6176ff;
 }
+
+.fancy-boarder{
+  border-radius: 30% 70% 70% 30% / 30% 44% 56% 70% ;
+}
