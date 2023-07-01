@@ -8,7 +8,11 @@ import { SiMongodb, SiFirebase, SiTailwindcss, SiDaisyui, SiExpress } from 'reac
 const AboutMe = () => {
     return (
         <div className='pb-40' >
-            <h1 className='text-4xl text-indigo-200 text-center'>About Me</h1>
+            <h1 className='text-4xl text-indigo-200 text-center'
+                data-aos="fade-down"
+                data-aos-duration="1500"
+                data-aos-easing="ease-in-out"
+            >About Me</h1>
 
             <div className='divider w-2/12 bg-[#97a5ff] h-1 rounded-full mx-auto '></div>
 
@@ -18,13 +22,16 @@ const AboutMe = () => {
                 <div className='  bg-[#97a5ff] w-fit fancy-boarder2 '
                     data-aos="fade-left"
                     data-aos-duration="1500"
+
                 >
                     <img src={myself} className=' md:w-96 w-72 fancy-boarder2 relative top-5 left-5' />
                 </div>
                 <div className='text-indigo-200  md:w-1/2 w-[340px]' >
 
                     {/* about  */}
-                    <div className=' backdrop-blur-md bg-blue-600 bg-opacity-20 p-5 text-base' data-aos="fade-left"
+                    <div className=' backdrop-blur-md bg-blue-600 bg-opacity-20 p-5 text-base'
+                        data-aos="fade-left"
+                        data-aos-delay="300"
                         data-aos-duration="1500">
                         <h1 className=' font-mono '>
                             I'm <span className='font-bold text-sm'>Rakib</span>, a 20 year old <span className='font-bold text-sm'>Front-End Developer</span> with 1+ years of experience. I work with Javascript and its endless list of frameworks, primarily with <span className='font-bold text-sm'>React.js, Nodejs, and Express.js</span> .
