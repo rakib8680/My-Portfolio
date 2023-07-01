@@ -4,6 +4,7 @@ import 'aos/dist/aos.css';
 import { FaAngleRight, FaFacebook, FaInstagram, FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Typewriter } from 'react-simple-typewriter'
 import profile from '../../assets/profile.png'
+import { Button } from 'react-scroll/modules';
 AOS.init();
 
 const Banner = () => {
@@ -38,9 +39,15 @@ const Banner = () => {
                         <FaAngleRight className='text-[#97a5ff]' />
                         <Typewriter words={['Full Stack Developer', 'Front-End Developer', 'UI/UX Enthusiast', 'React Developer']} loop={false} delaySpeed={2000} cursor={true} />
                     </div>
-
+                    <div className='flex  justify-start gap-10 pt-5'
+                        data-aos="fade-up"
+                        data-aos-duration="1500"
+                        data-aos-easing="ease-in-out"
+                        data-aos-delay="1800">
+                        <button className='glowing-btn'>Hire Me</button>
+                        <button className='glowing-btn '>My Resume</button>
+                    </div>
                 </div>
-
 
                 {/* profile  */}
                 <div className='flex flex-col items-center'>
@@ -91,7 +98,6 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-           
         </div>
     );
 };
