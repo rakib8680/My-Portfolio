@@ -5,6 +5,7 @@ import NabBar from './components/NavBar/NabBar';
 import Particle from './components/Particle';
 import About from './components/About';
 import { motion, useScroll, useSpring } from "framer-motion";
+import Projects from './components/Projects/Projects';
 
 const App = () => {
 
@@ -22,6 +23,7 @@ const App = () => {
       {/* <NabBar /> */}
       <Banner />
       <About />
+      <Projects/>
       <Particle />
     </div>
   );

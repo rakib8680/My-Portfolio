@@ -3,7 +3,7 @@ import AOS from 'aos';
 AOS.init();
 import myself from '../../assets/myPhoto3.png'
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNode, FaStripe, FaBootstrap, } from 'react-icons/fa';
-import { SiMongodb, SiFirebase, SiTailwindcss, SiDaisyui, SiVercel } from 'react-icons/si'
+import { SiMongodb, SiFirebase, SiTailwindcss, SiDaisyui, SiExpress } from 'react-icons/si'
 
 const AboutMe = () => {
     return (
@@ -12,16 +12,20 @@ const AboutMe = () => {
 
             <div className='divider w-2/12 bg-[#97a5ff] h-1 rounded-full mx-auto '></div>
 
-            <div className='container mx-auto  flex flex-col-reverse md:flex-row items-center justify-center gap-60 pt-20' >
-                <div className='  bg-[#97a5ff] w-fit fancy-boarder2'
+            <div className='container mx-auto  flex flex-col-reverse md:flex-row items-center justify-center md:gap-60 gap-32 pt-20' >
+
+                {/* photo  */}
+                <div className='  bg-[#97a5ff] w-fit fancy-boarder2 '
                     data-aos="fade-left"
                     data-aos-duration="1500"
-                   >
-                    <img src={myself} className='w-96 fancy-boarder2 relative top-5 left-5' />
+                >
+                    <img src={myself} className=' md:w-96 w-72 fancy-boarder2 relative top-5 left-5' />
                 </div>
                 <div className='text-indigo-200  md:w-1/2 w-[340px]' >
+
+                    {/* about  */}
                     <div className=' backdrop-blur-md bg-blue-600 bg-opacity-20 p-5 text-base' data-aos="fade-left"
-                    data-aos-duration="1500">
+                        data-aos-duration="1500">
                         <h1 className=' font-mono '>
                             I'm <span className='font-bold text-sm'>Rakib</span>, a 20 year old <span className='font-bold text-sm'>Front-End Developer</span> with 1+ years of experience. I work with Javascript and its endless list of frameworks, primarily with <span className='font-bold text-sm'>React.js, Nodejs, and Express.js</span> .
                         </h1>
@@ -34,94 +38,95 @@ const AboutMe = () => {
                             When I'm not coding, I love to binge-watch pop culture stuff. I also love to watch anime and create sketches. Even though I'm not very good, it does help my creative side when I'm building websites.
                         </h1>
                     </div>
-                    <div>
+
+                    {/* skills  */}
+                    <section>
                         <div className='divider divide-red-400 pt-10 pb-14 h-1 rounded-full text-2xl  mx-auto'>My Stack</div>
                         <div className=' md:flex gap-5 grid grid-cols-6'>
-                            <FaHtml5 size={10} className="!w-[45px]  !h-[45px] neonText2  p-2"
+                            <FaHtml5 size={10} className="!w-[45px]  !h-[45px] neonText2  p-2 " title='HTML'
                                 data-aos="fade-left"
-                                offset={0}
                                 data-aos-duration="1000"
                                 data-aos-easing="ease-in-out"
                                 data-aos-delay="1000"
                             />
 
-                            <FaCss3Alt size={10} className="!w-[45px]  !h-[45px] neonText2  p-2"
+                            <FaCss3Alt size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='CSS'
                                 data-aos="fade-left"
                                 data-aos-duration="1000"
                                 data-aos-easing="ease-in-out"
                                 data-aos-delay="1100"
                             />
 
-                            <FaJs size={10} className="!w-[45px]  !h-[45px] neonText2  p-2"
+                            <FaJs size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='Java Script'
                                 data-aos="fade-left"
                                 data-aos-duration="1000"
                                 data-aos-easing="ease-in-out"
                                 data-aos-delay="1200"
                             />
-                            <FaReact size={10} className="!w-[45px]  !h-[45px] neonText2  p-2"
+                            <FaReact size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='React Js'
                                 data-aos="fade-left"
                                 data-aos-duration="1000"
                                 data-aos-easing="ease-in-out"
                                 data-aos-delay="1300"
                             />
 
-                            <FaNode size={10} className="!w-[45px]  !h-[45px] neonText2  p-2"
+                            <FaNode size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='Node Js'
                                 data-aos="fade-left"
                                 data-aos-duration="1000"
                                 data-aos-easing="ease-in-out"
                                 data-aos-delay="1400"
                             />
 
-                            <FaBootstrap size={10} className="!w-[45px]  !h-[45px] neonText2  p-2"
+                            <FaBootstrap size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='BootsTrap'
                                 data-aos="fade-left"
                                 data-aos-duration="1000"
                                 data-aos-easing="ease-in-out"
                                 data-aos-delay="1500"
                             />
 
-                            <SiTailwindcss size={10} className="!w-[45px]  !h-[45px] neonText2  p-2"
+                            <SiTailwindcss size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='Tailwind'
                                 data-aos="fade-left"
                                 data-aos-duration="1000"
                                 data-aos-easing="ease-in-out"
                                 data-aos-delay="1600"
                             />
 
-                            <SiDaisyui size={10} className="!w-[45px]  !h-[45px] neonText2  p-2"
+                            <SiDaisyui size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='DaisyUi'
                                 data-aos="fade-left"
                                 data-aos-duration="1000"
                                 data-aos-easing="ease-in-out"
                                 data-aos-delay="1700"
                             />
 
-                            <SiMongodb size={10} className="!w-[45px]  !h-[45px] neonText2  p-2"
+                            <SiMongodb size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='MongoDB'
                                 data-aos="fade-left"
                                 data-aos-duration="1000"
                                 data-aos-easing="ease-in-out"
                                 data-aos-delay="1800"
                             />
 
-                            <SiFirebase size={10} className="!w-[45px]  !h-[45px] neonText2  p-2"
+                            <SiFirebase size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='Firebase'
                                 data-aos="fade-left"
                                 data-aos-duration="1000"
                                 data-aos-easing="ease-in-out"
                                 data-aos-delay="1900"
                             />
 
-                            <SiVercel size={10} className="!w-[45px]  !h-[45px] neonText2  p-2"
+                            <SiExpress size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='Express Js'
                                 data-aos="fade-left"
                                 data-aos-duration="1000"
                                 data-aos-easing="ease-in-out"
                                 data-aos-delay="2000"
                             />
 
-                            <FaStripe size={10} className="!w-[45px]  !h-[45px] neonText2  p-2"
+                            <FaStripe size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='Stripe'
                                 data-aos="fade-left"
                                 data-aos-duration="1000"
                                 data-aos-easing="ease-in-out"
                                 data-aos-delay="2100"
                             />
                         </div>
-                    </div>
+                    </section>
                 </div>
             </div>
         </div>

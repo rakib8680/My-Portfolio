@@ -4,7 +4,6 @@ import 'aos/dist/aos.css';
 import { FaAngleRight, FaFacebook, FaInstagram, FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Typewriter } from 'react-simple-typewriter'
 import profile from '../../assets/profile.png'
-import { Button } from 'react-scroll/modules';
 AOS.init();
 
 const Banner = () => {
@@ -44,8 +43,8 @@ const Banner = () => {
                         data-aos-duration="1500"
                         data-aos-easing="ease-in-out"
                         data-aos-delay="1800">
-                        <button className='glowing-btn py-3 md:py-0'>Hire Me</button>
-                        <button className='glowing-btn  py-3 md:py-0'>My Resume</button>
+                        <a href='https://www.twitter.com/rakib8680' className='glowing-btn py-3 md:py-2 '>Hire Me</a>
+                        <a className='glowing-btn  py-3 md:py-2'>My Resume</a>
                     </div>
                 </div>
 

@@ -2,6 +2,12 @@
   font-family: 'Poppins', sans-serif;
 }
 
+
+
+
+
+/* custom shapes  */
+
 .custom-shape-divider-top-1687948252 {
   position: absolute;
   top: 0;
@@ -21,6 +27,39 @@
 .custom-shape-divider-top-1687948252 .shape-fill {
   fill: #000000;
 }
+
+/* custom shape 2  */
+.custom-shape-divider-top-1688219589 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1688219589 svg {
+  position: relative;
+  display: block;
+  width: calc(131% + 1.3px);
+  height: 201px;
+}
+
+.custom-shape-divider-top-1688219589 .shape-fill {
+  fill: #101729;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* glowing text */
 
 .content {
   position: relative;
@@ -105,6 +144,7 @@
     0 0 50px #97a5ff,
     0 0 70px #97a5ff;
 }
+
 .neonText2 {
   color: #ffffff;
   box-shadow:
@@ -117,6 +157,7 @@
     0 0 50px #97a5ff,
     0 0 70px #97a5ff;
 }
+
 .neonText2:hover {
   color: #ffffff;
   box-shadow:
@@ -137,6 +178,7 @@
 .fancy-boarder {
   border-radius: 30% 70% 70% 30% / 30% 44% 56% 70%;
 }
+
 .fancy-boarder2 {
   border-radius: 0% 100% 100% 100% / 0% 100% 0% 100%;
 }
@@ -156,6 +198,7 @@
   text-align: center;
   background-color: #222;
 }
+
 .glitch {
   position: relative;
   font-size: 80px;
@@ -165,6 +208,7 @@
   letter-spacing: 5px;
   z-index: 1;
 }
+
 .glitch:before {
   content: attr(data-glitch);
   position: absolute;
@@ -177,6 +221,7 @@
   clip: rect(0, 900px, 0, 0);
   animation: noise-before 3s infinite linear alternate-reverse;
 }
+
 .glitch:after {
   content: attr(data-glitch);
   position: absolute;
@@ -189,6 +234,7 @@
   clip: rect(0, 900px, 0, 0);
   animation: noise-after 2s infinite linear alternate-reverse;
 }
+
 @keyframes noise-before {
   0% {
     clip: rect(61px, 9999px, 52px, 0);
@@ -274,6 +320,7 @@
     clip: rect(173px, 9999px, 166px, 0);
   }
 }
+
 @keyframes noise-after {
   0% {
     clip: rect(26px, 9999px, 33px, 0);
@@ -398,13 +445,15 @@
     0px 0px 0.5em 0px var(--glow-color);
   animation: border-flicker 2s linear infinite;
 }
+
 .glowing-btn::before {
-  
+
   filter: blur(1em);
   transform: translateY(120%) rotateX(95deg) scale(1, 0.35);
   background: var(--glow-color);
   pointer-events: none;
 }
+
 .glowing-btn::after {
   content: "";
   position: absolute;
@@ -418,26 +467,32 @@
   box-shadow: 0 0 2em 0.2em var(--glow-color);
   transition: opacity 100ms linear;
 }
+
 .glowing-btn:hover {
   color: rgba(0, 0, 0, 0.8);
   text-shadow: none;
   animation: none;
 }
+
 .glowing-btn:hover .glowing-txt {
   animation: none;
 }
+
 .glowing-btn:hover .faulty-letter {
   animation: none;
   text-shadow: none;
   opacity: 1;
 }
+
 .glowing-btn:hover:before {
   filter: blur(1.5em);
   opacity: 1;
 }
+
 .glowing-btn:hover:after {
   opacity: 1;
 }
+
 @keyframes border-flicker {
   0% {
     opacity: 0.1;
@@ -482,18 +537,18 @@
 
 .fancy-bg2 {
   background:
-    radial-gradient(50% 50% at 100% 0, #002456 0% 5%, #000027 6% 15%, #002456 16% 25%, #000027 26% 35%, #002456 36% 45%,
-      #000027 46% 55%, #002456 56% 65%, #000027 66% 75%, #002456 76% 85%, #000027 86% 95%,
+    radial-gradient(50% 50% at 100% 0, #000000 0% 5%, #101629 6% 15%, #000000 16% 25%, #101629 26% 35%, #000000 36% 45%,
+      #101629 46% 55%, #000000 56% 65%, #101629 66% 75%, #000000 76% 85%, #101629 86% 95%,
       #0000 96%),
-    radial-gradient(50% 50% at 0 100%, #002456 0% 5%, #000027 6% 15%, #002456 16% 25%, #000027 26% 35%, #002456 36% 45%,
-      #000027 46% 55%, #002456 56% 65%, #000027 66% 75%, #002456 76% 85%, #000027 86% 95%,
+    radial-gradient(50% 50% at 0 100%, #000000 0% 5%, #101629 6% 15%, #000000 16% 25%, #101629 26% 35%, #000000 36% 45%,
+      #101629 46% 55%, #000000 56% 65%, #101629 66% 75%, #000000 76% 85%, #101629 86% 95%,
       #0000 96%),
-    radial-gradient(50% 50%, #002456 0% 5%, #000027 6% 15%, #002456 16% 25%, #000027 26% 35%, #002456 36% 45%,
-      #000027 46% 55%, #002456 56% 65%, #000027 66% 75%, #002456 76% 85%, #000027 86% 95%,
+    radial-gradient(50% 50%, #000000 0% 5%, #101629 6% 15%, #000000 16% 25%, #101629 26% 35%, #000000 36% 45%,
+      #101629 46% 55%, #000000 56% 65%, #101629 66% 75%, #000000 76% 85%, #101629 86% 95%,
       #0000 96%),
-    radial-gradient(50% 50%, #002456 0% 5%, #000027 6% 15%, #002456 16% 25%, #000027 26% 35%, #002456 36% 45%,
-      #000027 46% 55%, #002456 56% 65%, #000027 66% 75%, #002456 76% 85%, #000027 86% 95%,
-      #0000 96%) 26px 26px;
-  background-size: 52px 52px;
-  background-color: #002456;
+    radial-gradient(50% 50%, #000000 0% 5%, #101629 6% 15%, #000000 16% 25%, #101629 26% 35%, #000000 36% 45%,
+      #101629 46% 55%, #000000 56% 65%, #101629 66% 75%, #000000 76% 85%, #101629 86% 95%,
+      #0000 96%) 32px 32px;
+  background-size: 64px 64px;
+  background-color: #000000;
 }
