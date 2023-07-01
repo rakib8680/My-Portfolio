@@ -10,28 +10,28 @@ AOS.init();
 const Banner = () => {
     return (
         <div className=''>
-            <div className='h-[100vh] flex  items-center justify-between z-20 container mx-auto'>
+            <div className=' mt-60 md:mt-0 md:h-[100vh] md:flex  items-center justify-between  container mx-auto'>
                 <div className='space-y-3 -mt-40 '>
                     <h1
-                        className='text-3xl text-indigo-200 backdrop-blur-md bg-blue-600 bg-opacity-20 p-5 '
+                        className='md:text-3xl text-lg text-center md:text-left text-indigo-200 backdrop-blur-md bg-blue-600 bg-opacity-20 p-5 '
                         data-aos="fade-down"
                         data-aos-duration="1500"
                         data-aos-delay="1500"
                         data-aos-easing="ease-in-out"> Welcome to my Portfolio ! 👋
                     </h1>
-                    <div className='backdrop-blur-md bg-blue-600 bg-opacity-20 p-10 pb-40 content'>
-                        <h1 className='text-8xl pt-7 neonText'
+                    <div className='backdrop-blur-md bg-blue-600 bg-opacity-20  p-10 pb-40 content'>
+                        <h1 className=' md:text-8xl text-5xl  pt-7 neonText'
                             data-aos="fade-left"
                             data-aos-duration="1500"
                             data-aos-easing="ease-in-out">Abdullah Al</h1>
-                        <div className='absolute top-60 left-[225px]' data-aos="fade-right"
+                        <div className='absolute md:top-60 top-44 md:left-[225px] left-[180px] ' data-aos="fade-right"
                             data-aos-duration="1500"
                             data-aos-easing="ease-in-out">
-                            <h2 className='text-8xl font-bold'>Rakib</h2>
-                            <h2 className='text-8xl font-bold'>Rakib</h2>
+                            <h2 className='md:text-9xl text-8xl font-bold'>Rakib</h2>
+                            <h2 className='md:text-9xl text-8xl  font-bold'>Rakib</h2>
                         </div>
                     </div>
-                    <div className='text-4xl text-indigo-200 font-mono backdrop-blur-md bg-blue-600 bg-opacity-20 p-5 flex items-center'
+                    <div className=' text-lg md:text-4xl text-indigo-200 font-mono backdrop-blur-md bg-blue-600 bg-opacity-20 p-5 flex items-center'
                         data-aos="fade-up"
                         data-aos-duration="1500"
                         data-aos-easing="ease-in-out"
@@ -39,18 +39,18 @@ const Banner = () => {
                         <FaAngleRight className='text-[#97a5ff]' />
                         <Typewriter words={['Full Stack Developer', 'Front-End Developer', 'UI/UX Enthusiast', 'React Developer']} loop={false} delaySpeed={2000} cursor={true} />
                     </div>
-                    <div className='flex  justify-start gap-10 pt-5'
+                    <div className='flex flex-col md:flex-row  justify-start md:gap-10 gap-5 pt-5 px-4 md:px-0'
                         data-aos="fade-up"
                         data-aos-duration="1500"
                         data-aos-easing="ease-in-out"
                         data-aos-delay="1800">
-                        <button className='glowing-btn'>Hire Me</button>
-                        <button className='glowing-btn '>My Resume</button>
+                        <button className='glowing-btn py-3 md:py-0'>Hire Me</button>
+                        <button className='glowing-btn  py-3 md:py-0'>My Resume</button>
                     </div>
                 </div>
 
                 {/* profile  */}
-                <div className='flex flex-col items-center'>
+                <div className='flex flex-col items-center mt-56 p-4 md:mt-0 md:p-0 mb-36'>
                     <div
                         data-aos="fade-in"
                         data-aos-duration="1500"

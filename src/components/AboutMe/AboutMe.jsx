@@ -12,14 +12,14 @@ const AboutMe = () => {
 
             <div className='divider w-2/12 bg-[#97a5ff] h-1 rounded-full mx-auto '></div>
 
-            <div className='container mx-auto  flex items-center justify-center gap-60 pt-20' >
+            <div className='container mx-auto  flex flex-col-reverse md:flex-row items-center justify-center gap-60 pt-20' >
                 <div className='  bg-[#97a5ff] w-fit fancy-boarder2'
                     data-aos="fade-left"
                     data-aos-duration="1500"
                    >
                     <img src={myself} className='w-96 fancy-boarder2 relative top-5 left-5' />
                 </div>
-                <div className='text-indigo-200  w-1/2' >
+                <div className='text-indigo-200  md:w-1/2 w-[340px]' >
                     <div className=' backdrop-blur-md bg-blue-600 bg-opacity-20 p-5 text-base' data-aos="fade-left"
                     data-aos-duration="1500">
                         <h1 className=' font-mono '>
@@ -36,7 +36,7 @@ const AboutMe = () => {
                     </div>
                     <div>
                         <div className='divider divide-red-400 pt-10 pb-14 h-1 rounded-full text-2xl  mx-auto'>My Stack</div>
-                        <div className='flex gap-5'>
+                        <div className=' md:flex gap-5 grid grid-cols-6'>
                             <FaHtml5 size={10} className="!w-[45px]  !h-[45px] neonText2  p-2"
                                 data-aos="fade-left"
                                 offset={0}
