@@ -21,27 +21,27 @@
         },
         {
             "image": "/src/assets/languageVio.png",
-            "name": "Marvel Figures | E-commerce website",
-            "about": "An online action figure marketplace, where collectors and enthusiasts can buy and sell a wide variety of action figures. Our website provides a convenient platform for users to list their action figures for sale and browse through the available collection. With easy-to-use features, users can effortlessly add, edit, and manage their listings, ensuring accurate and up-to-date information.",
+            "name": "Language Vio | Learning Website",
+            "about": "An online language learning website, your gateway to mastering languages from the comfort of your own home. Discover a wide range of language classes tailored to your proficiency level and learning style. Whether you're a beginner or advanced learner, our platform provides a seamless and engaging learning experience.",
             "technologies": [
                 "React.js",
                 "Tailwind CSS",
-                "DaisyUi",
+                "Stripe",
                 "Node.js",
                 "Express.js",
                 "MongoDB",
                 "Firebase",
-                "React Router"
+                "Axios"
             ],
             "flex": "flex-row-reverse",
-            "liveLink": "https://marvel-figures.web.app/",
-            "clientCode": "https://github.com/rakib8680/Marvel-Figures",
-            "serverCode": "https://github.com/rakib8680/Marvel-Figures-Server"
+            "liveLink": "https://languagevio.web.app/",
+            "clientCode": "https://github.com/rakib8680/LanguageVio-Client",
+            "serverCode": "https://github.com/rakib8680/LanguageVio-Server"
         },
         {
             "image": "/src/assets/kitchenMaster.png",
-            "name": "Marvel Figures | E-commerce website",
-            "about": "An online action figure marketplace, where collectors and enthusiasts can buy and sell a wide variety of action figures. Our website provides a convenient platform for users to list their action figures for sale and browse through the available collection. With easy-to-use features, users can effortlessly add, edit, and manage their listings, ensuring accurate and up-to-date information.",
+            "name": "Kitchen Master | Recipe Website",
+            "about": "A celebration of the rich tapestry of Indian cuisine and the talented chefs who bring it to life. Explore the world of Indian culinary artistry as you browse through a collection of renowned chefs and their top recipes. From traditional favorites to innovative creations, our website offers a culinary journey that captures the essence of India's diverse flavors and culinary heritage.",
             "technologies": [
                 "React.js",
                 "Tailwind CSS",
@@ -53,28 +53,24 @@
                 "React Router"
             ],
             "flex": "flex-row",
-            "liveLink": "https://marvel-figures.web.app/",
-            "clientCode": "https://github.com/rakib8680/Marvel-Figures",
-            "serverCode": "https://github.com/rakib8680/Marvel-Figures-Server"
+            "liveLink": "https://kitchen-master-6d70d.web.app/home",
+            "clientCode": "https://github.com/rakib8680/kitchen-master",
+            "serverCode": "https://github.com/rakib8680/kitchen-master-server"
         },
         {
             "image": "/src/assets/buildCareer.png",
-            "name": "Marvel Figures | E-commerce website",
-            "about": "An online action figure marketplace, where collectors and enthusiasts can buy and sell a wide variety of action figures. Our website provides a convenient platform for users to list their action figures for sale and browse through the available collection. With easy-to-use features, users can effortlessly add, edit, and manage their listings, ensuring accurate and up-to-date information.",
+            "name": "Build Career | Job-Portal website",
+            "about": "An  dynamic online job portal, your gateway to a world of career opportunities. Explore a vast collection of job listings across various industries, empowering you to take charge of your professional journey. Discover, apply, and unlock your potential as you build your dream career with us.",
             "technologies": [
                 "React.js",
                 "Tailwind CSS",
                 "DaisyUi",
-                "Node.js",
-                "Express.js",
-                "MongoDB",
-                "Firebase",
-                "React Router"
+                "Firebase"
             ],
             "flex": "flex-row-reverse",
-            "liveLink": "https://marvel-figures.web.app/",
-            "clientCode": "https://github.com/rakib8680/Marvel-Figures",
-            "serverCode": "https://github.com/rakib8680/Marvel-Figures-Server"
+            "liveLink": "https://build-career.surge.sh/",
+            "clientCode": "https://github.com/rakib8680/Build-Career",
+            "serverCode": "https://github.com/rakib8680/Build-Career"
         }
     ]
 }
