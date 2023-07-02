@@ -521,6 +521,64 @@
 
 
 
+.glowing-btn2 {
+  position: relative;
+  color: var(--glow-color);
+  cursor: pointer;
+  padding: 0.35em 1em;
+  border: 0.15em solid var(--glow-color);
+  background: none;
+  perspective: 2em;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+
+  -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+  -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+  box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+}
+
+.glowing-btn2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: -1;
+  background-color: var(--glow-color);
+  box-shadow: 0 0 2em 0.2em var(--glow-color);
+  transition: opacity 100ms linear;
+}
+
+.glowing-btn2:hover {
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: none;
+  animation: none;
+}
+
+.glowing-btn2:hover .glowing-txt {
+  animation: none;
+}
+
+
+.glowing-btn2:hover:before {
+  filter: blur(1.5em);
+  opacity: 1;
+}
+
+.glowing-btn2:hover:after {
+  opacity: 1;
+}
+
+
+
+
+
 
 
 
@@ -551,4 +609,14 @@
       #0000 96%) 32px 32px;
   background-size: 64px 64px;
   background-color: #000000;
+}
+
+
+
+
+
+
+/* fancy shadow  */
+.fancy-shadow {
+  box-shadow: -26px 10px 44px -2px rgba(25, 0, 83, 0.46);
 }

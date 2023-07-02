@@ -1,0 +1,80 @@
+{
+    "projects": [
+        {
+            "image": "/src/assets/marvelFigures.png",
+            "name": "Marvel Figures | E-commerce website",
+            "about": "An online action figure marketplace, where collectors and enthusiasts can buy and sell a wide variety of action figures. Our website provides a convenient platform for users to list their action figures for sale and browse through the available collection. With easy-to-use features, users can effortlessly add, edit, and manage their listings, ensuring accurate and up-to-date information.",
+            "technologies": [
+                "React.js",
+                "Tailwind CSS",
+                "DaisyUi",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Firebase",
+                "React Router"
+            ],
+            "flex": "flex-row",
+            "liveLink": "https://marvel-figures.web.app/",
+            "clientCode": "https://github.com/rakib8680/Marvel-Figures",
+            "serverCode": "https://github.com/rakib8680/Marvel-Figures-Server"
+        },
+        {
+            "image": "/src/assets/languageVio.png",
+            "name": "Marvel Figures | E-commerce website",
+            "about": "An online action figure marketplace, where collectors and enthusiasts can buy and sell a wide variety of action figures. Our website provides a convenient platform for users to list their action figures for sale and browse through the available collection. With easy-to-use features, users can effortlessly add, edit, and manage their listings, ensuring accurate and up-to-date information.",
+            "technologies": [
+                "React.js",
+                "Tailwind CSS",
+                "DaisyUi",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Firebase",
+                "React Router"
+            ],
+            "flex": "flex-row-reverse",
+            "liveLink": "https://marvel-figures.web.app/",
+            "clientCode": "https://github.com/rakib8680/Marvel-Figures",
+            "serverCode": "https://github.com/rakib8680/Marvel-Figures-Server"
+        },
+        {
+            "image": "/src/assets/kitchenMaster.png",
+            "name": "Marvel Figures | E-commerce website",
+            "about": "An online action figure marketplace, where collectors and enthusiasts can buy and sell a wide variety of action figures. Our website provides a convenient platform for users to list their action figures for sale and browse through the available collection. With easy-to-use features, users can effortlessly add, edit, and manage their listings, ensuring accurate and up-to-date information.",
+            "technologies": [
+                "React.js",
+                "Tailwind CSS",
+                "DaisyUi",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Firebase",
+                "React Router"
+            ],
+            "flex": "flex-row",
+            "liveLink": "https://marvel-figures.web.app/",
+            "clientCode": "https://github.com/rakib8680/Marvel-Figures",
+            "serverCode": "https://github.com/rakib8680/Marvel-Figures-Server"
+        },
+        {
+            "image": "/src/assets/buildCareer.png",
+            "name": "Marvel Figures | E-commerce website",
+            "about": "An online action figure marketplace, where collectors and enthusiasts can buy and sell a wide variety of action figures. Our website provides a convenient platform for users to list their action figures for sale and browse through the available collection. With easy-to-use features, users can effortlessly add, edit, and manage their listings, ensuring accurate and up-to-date information.",
+            "technologies": [
+                "React.js",
+                "Tailwind CSS",
+                "DaisyUi",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Firebase",
+                "React Router"
+            ],
+            "flex": "flex-row-reverse",
+            "liveLink": "https://marvel-figures.web.app/",
+            "clientCode": "https://github.com/rakib8680/Marvel-Figures",
+            "serverCode": "https://github.com/rakib8680/Marvel-Figures-Server"
+        }
+    ]
+}
