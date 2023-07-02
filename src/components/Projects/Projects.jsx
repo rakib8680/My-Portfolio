@@ -30,7 +30,7 @@ const Projects = () => {
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out">
             </div>
-            <div className='py-20 '>
+            <div className=' md:py-20 pb-0 pt-20  '>
                 {
                     projects.map((project, index) => <SingleProject key={index} project={project} index={index} />)
                 }

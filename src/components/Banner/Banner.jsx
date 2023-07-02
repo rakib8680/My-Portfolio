@@ -36,7 +36,7 @@ const Banner = () => {
                         data-aos-easing="ease-in-out"
                         data-aos-delay="1500">
                         <FaAngleRight className='text-[#97a5ff]' />
-                        <Typewriter words={['Full Stack Developer', 'Front-End Developer', 'UI/UX Enthusiast', 'React Developer']} loop={false} delaySpeed={2000} cursor={true} />
+                        <Typewriter cursorStyle='🚦'  words={['Full Stack Developer', 'Front-End Developer', 'UI/UX Enthusiast', 'React Developer']} loop={false} delaySpeed={2000} cursor={true} />
                     </div>
                     <div className='flex flex-col md:flex-row  justify-start md:gap-10 gap-5 pt-5 px-4 md:px-0'
                         data-aos="fade-up"

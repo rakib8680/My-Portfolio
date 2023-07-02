@@ -5,10 +5,9 @@ import { BiSolidServer } from 'react-icons/bi'
 
 
 const singleProject = ({ project, index }) => {
-    console.log(project);
     const { image, about, liveLink, clientCode, name, serverCode, technologies, flex } = project || {};
     return (
-        <div className={` md:flex ${flex} justify-center items-center gap-10 md:pb-20`}>
+        <div className={` md:flex ${flex} justify-center items-center gap-10 pb-20`}>
             <div className='hover:z-10 transition-all  duration-200 '
                 data-aos="fade-left"
                 data-aos-duration="800"
