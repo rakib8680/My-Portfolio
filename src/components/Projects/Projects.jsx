@@ -12,7 +12,6 @@ const Projects = () => {
             .then(data => setProjects(data.projects))
     }, [])
 
-    console.log(projects);
 
     return (
         <div className='custom-shape-divider-top-1688219589 relative fancy-bg2'>
@@ -34,7 +33,13 @@ const Projects = () => {
             <div className='py-20 '>
                 {
                     projects.map((project, index) => <SingleProject key={index} project={project} index={index} />)
-                }   
+                }
+            </div>
+            <div className='scrolldown'>
+                <div className="chevrons">
+                    <div className='chevrondown'></div>
+                    <div className='chevrondown'></div>
+                </div>
             </div>
 
             {/* wave  */}

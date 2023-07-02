@@ -19,7 +19,7 @@ const Banner = () => {
                         data-aos-easing="ease-in-out"> Welcome to my Portfolio ! 👋
                     </h1>
                     <div className='backdrop-blur-md bg-blue-600 bg-opacity-20  p-10 pb-40 content'>
-                        <h1 className=' md:text-8xl text-5xl  pt-7 neonText'
+                        <h1 className=' md:text-8xl text-5xl  pt-7 neonText text-center'
                             data-aos="fade-left"
                             data-aos-duration="1500"
                             data-aos-easing="ease-in-out">Abdullah Al</h1>
@@ -53,7 +53,7 @@ const Banner = () => {
                     <div
                         data-aos="fade-in"
                         data-aos-duration="1500"
-                        data-aos-delay="1000"
+                        data-aos-delay="400"
                         data-aos-easing="ease-in-out"
                         className='mask mask-squircle bg-blue-600 backdrop-blur-md bg-opacity-20 profile-shadow -mt-40'>
                         <img className='w-96' src={profile} />
