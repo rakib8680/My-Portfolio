@@ -6,6 +6,7 @@ import Particle from './components/Particle';
 import About from './components/About';
 import { motion, useScroll, useSpring } from "framer-motion";
 import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
 
 const App = () => {
 
@@ -24,6 +25,7 @@ const App = () => {
       <Banner />
       <About />
       <Projects/>
+      <Contact/>
       <Particle />
     </div>
   );

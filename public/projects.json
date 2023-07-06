@@ -14,7 +14,7 @@
                 "Firebase",
                 "React Router"
             ],
-            "flex": "flex-row",
+            "flex": "",
             "liveLink": "https://marvel-figures.web.app/",
             "clientCode": "https://github.com/rakib8680/Marvel-Figures",
             "serverCode": "https://github.com/rakib8680/Marvel-Figures-Server"
@@ -52,13 +52,13 @@
                 "Firebase",
                 "React Router"
             ],
-            "flex": "flex-row",
+            "flex": "",
             "liveLink": "https://kitchen-master-6d70d.web.app/home",
             "clientCode": "https://github.com/rakib8680/kitchen-master",
             "serverCode": "https://github.com/rakib8680/kitchen-master-server"
         },
         {
-            "image": "/src/assets/buildCareer.png",
+            "image": "https://i.ibb.co/NWBWs84/build-Career.png",
             "name": "Build Career | Job-Portal website",
             "about": "An  dynamic online job portal, your gateway to a world of career opportunities. Explore a vast collection of job listings across various industries, empowering you to take charge of your professional journey. Discover, apply, and unlock your potential as you build your dream career with us.",
             "technologies": [

@@ -35,18 +35,12 @@ const Projects = () => {
                     projects.map((project, index) => <SingleProject key={index} project={project} index={index} />)
                 }
             </div>
-            <div className='scrolldown'>
-                <div className="chevrons">
-                    <div className='chevrondown'></div>
-                    <div className='chevrondown'></div>
-                </div>
-            </div>
 
             {/* wave  */}
             <div className=''>
                 <Wave
                     fill='#19223e'
-                    className=' '
+                    className='-z-0'
                     paused={false}
                     options={{
                         height: 10,
