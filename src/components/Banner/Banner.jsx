@@ -4,9 +4,17 @@ import 'aos/dist/aos.css';
 import { FaAngleRight, FaFacebook, FaInstagram, FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Typewriter } from 'react-simple-typewriter'
 import profile from '../../assets/profile.png'
+
 AOS.init();
 
 const Banner = () => {
+    const downloadResume = () => {
+        const resumeUrl = 'MyResume.pdf';
+        const anchor = document.createElement('a');
+        anchor.href = resumeUrl;
+        anchor.download = 'MyResume.pdf';
+        anchor.click();
+    };
     return (
         <div className=''>
             <div className=' mt-60 md:mt-0 md:h-[100vh] md:flex  items-center justify-between  container mx-auto'>
@@ -36,15 +44,15 @@ const Banner = () => {
                         data-aos-easing="ease-in-out"
                         data-aos-delay="1500">
                         <FaAngleRight className='text-[#97a5ff]' />
-                        <Typewriter cursorStyle='🚦'  words={['Full Stack Developer', 'Front-End Developer', 'UI/UX Enthusiast', 'React Developer']} loop={false} delaySpeed={2000} cursor={true} />
+                        <Typewriter cursorStyle='🚦' words={['Full Stack Developer', 'Front-End Developer', 'UI/UX Enthusiast', 'React Developer']} loop={false} delaySpeed={2000} cursor={true} />
                     </div>
                     <div className='flex flex-col md:flex-row  justify-start md:gap-10 gap-5 pt-5 px-4 md:px-0'
                         data-aos="fade-up"
                         data-aos-duration="1500"
                         data-aos-easing="ease-in-out"
                         data-aos-delay="1800">
-                        <a href='https://www.twitter.com/rakib8680' className='glowing-btn py-3 md:py-2 '>Hire Me</a>
-                        <a className='glowing-btn  py-3 md:py-2'>My Resume</a>
+                        <a href='https://www.twitter.com/rakib8680' target={'_blank'} className='glowing-btn py-3 md:py-2 '>Hire Me</a>
+                        <a className='glowing-btn  py-3 md:py-2' onClick={ downloadResume}>My Resume</a>
                     </div>
                 </div>
 

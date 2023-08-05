@@ -7,7 +7,6 @@ import { BiSolidServer } from 'react-icons/bi'
 const singleProject = ({ project, index }) => {
     const { image, about, liveLink, clientCode, name, serverCode, technologies, flex } = project || {};
 
-    console.log(flex);
     return (
         <div className={` md:flex ${flex} justify-center items-center gap-10 pb-20 `}>
             <div className='hover:z-10 transition-all  duration-200 '
