@@ -4,17 +4,12 @@ import 'aos/dist/aos.css';
 import { FaAngleRight, FaFacebook, FaInstagram, FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Typewriter } from 'react-simple-typewriter'
 import profile from '../../assets/profile.png'
+import resume from '../../assets/MyResume.pdf';
 
 AOS.init();
 
 const Banner = () => {
-    const downloadResume = () => {
-        const resumeUrl = 'MyResume.pdf';
-        const anchor = document.createElement('a');
-        anchor.href = resumeUrl;
-        anchor.download = 'MyResume.pdf';
-        anchor.click();
-    };
+   
     return (
         <div className=''>
             <div className=' mt-60 md:mt-0 md:h-[100vh] md:flex  items-center justify-between  container mx-auto'>
@@ -31,7 +26,7 @@ const Banner = () => {
                             data-aos="fade-left"
                             data-aos-duration="1500"
                             data-aos-easing="ease-in-out">Abdullah Al</h1>
-                        <div className='absolute md:top-60 top-44 md:left-[225px] left-[180px] ' data-aos="fade-right"
+                        <div className='absolute md:top-60 top-44 md:left-[225px] left-[187px] ' data-aos="fade-right"
                             data-aos-duration="1500"
                             data-aos-easing="ease-in-out">
                             <h2 className='md:text-9xl text-8xl font-bold'>Rakib</h2>
@@ -52,7 +47,7 @@ const Banner = () => {
                         data-aos-easing="ease-in-out"
                         data-aos-delay="1800">
                         <a href='https://www.twitter.com/rakib8680' target={'_blank'} className='glowing-btn py-3 md:py-2 '>Hire Me</a>
-                        <a className='glowing-btn  py-3 md:py-2' onClick={ downloadResume}>My Resume</a>
+                        <a href={resume} download='Resume' className='glowing-btn  py-3 md:py-2' >My Resume</a>
                     </div>
                 </div>
 
