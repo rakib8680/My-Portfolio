@@ -7,7 +7,7 @@ import { SiMongodb, SiFirebase, SiTailwindcss, SiDaisyui, SiExpress } from 'reac
 
 const AboutMe = () => {
     return (
-        <div className='pb-40' >
+        <div className='pb-40' id='about'>
             <h1 className='text-4xl text-indigo-200 text-center'
                 data-aos="fade-down"
                 data-aos-duration="1500"
