@@ -1,9 +1,26 @@
 import Lottie from 'lottie-react';
-import React from 'react';
 import animation from '../../assets/89604-contact.json'
+import emailjs from '@emailjs/browser';
+import { useRef } from 'react';
 
 
 const Contact = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_41wbywr', 'template_9lqxhs6', form.current, '7mr_vvZKMjfXKtcvg')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+
+
+
     return (
         <div className='shapedividers_com-2722 fancy-bg  pb-36'>
             <h1 className='text-indigo-200  text-6xl mt-56 font-black md:ml-[457px] ml-5'
@@ -20,12 +37,13 @@ const Contact = () => {
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out">
-                    <form>
+                    <form ref={form} onSubmit={sendEmail}>
                         <div className="mb-6">
                             <label className="block text-indigo-200 text-sm font-medium mb-2" htmlFor="name">
                                 Name
                             </label>
                             <input
+                                name='from_name'
                                 className="w-full backdrop-blur-md bg-blue-900 bg-opacity-10 text-indigo-200 py-2 px-4  focus:outline-none focus:ring-2 focus:ring-indigo-900"
                                 type="text"
                                 id="name"
@@ -37,6 +55,7 @@ const Contact = () => {
                                 Email Address
                             </label>
                             <input
+                                name='from_email'
                                 className="w-full backdrop-blur-md bg-blue-900 bg-opacity-10 text-indigo-200 py-2 px-4  focus:outline-none focus:ring-2 focus:ring-indigo-900"
                                 type="email"
                                 id="email"
@@ -48,6 +67,7 @@ const Contact = () => {
                                 Message
                             </label>
                             <textarea
+                                name='message'
                                 className="w-full backdrop-blur-md bg-blue-900 bg-opacity-10 text-indigo-200 py-2 px-4  h-32 resize-none focus:outline-none focus:ring-2 focus:ring-indigo-900"
                                 id="message"
                                 placeholder="Enter your message"
