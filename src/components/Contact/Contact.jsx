@@ -2,6 +2,7 @@ import Lottie from 'lottie-react';
 import animation from '../../assets/89604-contact.json'
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
+import toast from 'react-hot-toast';
 
 
 const Contact = () => {
@@ -13,7 +14,22 @@ const Contact = () => {
 
         emailjs.sendForm('service_41wbywr', 'template_9lqxhs6', form.current, '7mr_vvZKMjfXKtcvg')
             .then((result) => {
-                console.log(result.text);
+                if (result.text === 'OK') {
+                    toast.success('🤍Thanks for your feedback!', {
+                        style: {
+                            border: '2px solid #12122e',
+                            padding: '13px',
+                            color: '#12122e',
+                            background: '#9e9ffb',
+
+                        },
+                        iconTheme: {
+                            primary: '#12122e',
+                            secondary: '#fff',
+                        },
+                    });
+                }
+                form.current.reset();
             }, (error) => {
                 console.log(error.text);
             });
@@ -47,6 +63,7 @@ const Contact = () => {
                                 className="w-full backdrop-blur-md bg-blue-900 bg-opacity-10 text-indigo-200 py-2 px-4  focus:outline-none focus:ring-2 focus:ring-indigo-900"
                                 type="text"
                                 id="name"
+                                required
                                 placeholder="Enter your name"
                             />
                         </div>
@@ -58,6 +75,7 @@ const Contact = () => {
                                 name='from_email'
                                 className="w-full backdrop-blur-md bg-blue-900 bg-opacity-10 text-indigo-200 py-2 px-4  focus:outline-none focus:ring-2 focus:ring-indigo-900"
                                 type="email"
+                                required
                                 id="email"
                                 placeholder="Enter your email address"
                             />
@@ -67,6 +85,7 @@ const Contact = () => {
                                 Message
                             </label>
                             <textarea
+                                required
                                 name='message'
                                 className="w-full backdrop-blur-md bg-blue-900 bg-opacity-10 text-indigo-200 py-2 px-4  h-32 resize-none focus:outline-none focus:ring-2 focus:ring-indigo-900"
                                 id="message"
