@@ -1,15 +1,15 @@
-import React from 'react';
+/* eslint-disable react/jsx-no-target-blank */
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { FaAngleRight, FaFacebook, FaInstagram, FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Typewriter } from 'react-simple-typewriter'
 import profile from '../../assets/profile.png'
-import resume from '../../assets/MyResume.pdf';
+import resume from '../../../public/MyResume.pdf';
 
 AOS.init();
 
 const Banner = () => {
-   
+
     return (
         <div className=''>
             <div className=' mt-60 md:mt-0 md:h-[100vh] md:flex  items-center justify-between  container mx-auto'>
@@ -47,7 +47,7 @@ const Banner = () => {
                         data-aos-easing="ease-in-out"
                         data-aos-delay="1800">
                         <a href='https://www.twitter.com/rakib8680' target={'_blank'} className='glowing-btn py-3 md:py-2 '>Hire Me</a>
-                        <a href={resume} download='Resume' className='glowing-btn  py-3 md:py-2' >My Resume</a>
+                        <a href={resume} download={resume} className='glowing-btn  py-3 md:py-2' >My Resume</a>
                     </div>
                 </div>
 

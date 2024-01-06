@@ -14,7 +14,7 @@
                 "Firebase",
                 "React Router"
             ],
-            "flex": "",
+            "flex": "flex-row-reverse",
             "liveLink": "https://marvel-figures.web.app/",
             "clientCode": "https://github.com/rakib8680/Marvel-Figures",
             "serverCode": "https://github.com/rakib8680/Marvel-Figures-Server"
@@ -33,7 +33,7 @@
                 "Firebase",
                 "Axios"
             ],
-            "flex": "flex-row-reverse",
+            "flex": "",
             "liveLink": "https://languagevio.web.app/",
             "clientCode": "https://github.com/rakib8680/LanguageVio-Client",
             "serverCode": "https://github.com/rakib8680/LanguageVio-Server"
@@ -52,7 +52,7 @@
                 "Firebase",
                 "React Router"
             ],
-            "flex": "",
+            "flex": "flex-row-reverse",
             "liveLink": "https://kitchen-master-6d70d.web.app/home",
             "clientCode": "https://github.com/rakib8680/kitchen-master",
             "serverCode": "https://github.com/rakib8680/kitchen-master-server"
@@ -67,7 +67,7 @@
                 "DaisyUi",
                 "Firebase"
             ],
-            "flex": "flex-row-reverse",
+            "flex": "",
             "liveLink": "https://build-career.surge.sh/",   
             "clientCode": "https://github.com/rakib8680/Build-Career",
             "serverCode": "https://github.com/rakib8680/Build-Career"

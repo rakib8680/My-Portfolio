@@ -1,4 +1,4 @@
-import React from 'react';
+/* eslint-disable react/jsx-no-target-blank */
 import { FaGlobe, FaUsersCog } from 'react-icons/fa'
 import { BiSolidServer } from 'react-icons/bi'
 

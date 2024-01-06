@@ -1,4 +1,4 @@
-import React from 'react';
+/* eslint-disable react/no-unescaped-entities */
 import AOS from 'aos';
 AOS.init();
 import myself from '../../assets/myPhoto3.png'
