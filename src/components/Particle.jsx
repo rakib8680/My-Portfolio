@@ -1,4 +1,4 @@
-import React from 'react';
+/* eslint-disable no-unused-vars */
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
@@ -30,7 +30,7 @@ const Particle = () => {
                     fpsLimit: 120,
                     fullScreen: {
                         enable: true,
-                        zIndex : -2,
+                        zIndex: -2,
                     },
                     interactivity: {
                         events: {
