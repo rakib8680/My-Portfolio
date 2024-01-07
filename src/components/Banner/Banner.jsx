@@ -12,16 +12,16 @@ const Banner = () => {
 
     return (
         <div className=''>
-            <div className=' mt-60 md:mt-0 md:h-[100vh] md:flex  items-center justify-between  container mx-auto'>
+            <div className='bannerContainer'>
                 <div className='space-y-3 -mt-40 '>
                     <h1
-                        className='md:text-3xl text-lg text-center md:text-left text-indigo-200 backdrop-blur-md bg-blue-600 bg-opacity-20 p-5 '
+                        className='welcomeText'
                         data-aos="fade-down"
                         data-aos-duration="1500"
                         data-aos-delay="1500"
                         data-aos-easing="ease-in-out"> Welcome to my Portfolio ! 👋
                     </h1>
-                    <div className='backdrop-blur-md bg-blue-600 bg-opacity-20  p-10 pb-40 content flex justify-center'>
+                    <div className='nameContainer content'>
                         <h1 className=' md:text-8xl text-5xl  pt-7 neonText text-center'
                             data-aos="fade-left"
                             data-aos-duration="1500"
@@ -33,15 +33,15 @@ const Banner = () => {
                             <h2 className='md:text-9xl text-8xl  font-bold'>Rakib</h2>
                         </div>
                     </div>
-                    <div className=' text-lg md:text-4xl text-indigo-200 font-mono backdrop-blur-md bg-blue-600 bg-opacity-20 p-5 flex items-center'
+                    <div className='typewriterContainer'
                         data-aos="fade-up"
                         data-aos-duration="1500"
                         data-aos-easing="ease-in-out"
                         data-aos-delay="1500">
                         <FaAngleRight className='text-[#97a5ff]' />
-                        <Typewriter cursorStyle='🚦' words={['Full Stack Developer', 'Front-End Developer', 'UI/UX Enthusiast', 'React Developer']} loop={false} delaySpeed={2000} cursor={true} />
+                        <Typewriter cursorStyle='🚦' words={['Full Stack Developer', 'Front-End Developer', 'UI/UX Enthusiast', 'MERN Stack Developer', 'Backend Developer']} loop={false} delaySpeed={2000} cursor={true} />
                     </div>
-                    <div className='flex flex-col md:flex-row  justify-start md:gap-10 gap-5 pt-5 px-4 md:px-0'
+                    <div className='resumeContainer'
                         data-aos="fade-up"
                         data-aos-duration="1500"
                         data-aos-easing="ease-in-out"
@@ -58,7 +58,7 @@ const Banner = () => {
                         data-aos-duration="1500"
                         data-aos-delay="400"
                         data-aos-easing="ease-in-out"
-                        className='mask mask-squircle bg-blue-600 backdrop-blur-md bg-opacity-20 profile-shadow -mt-40'>
+                        className='profileCss profile-shadow'>
                         <img className='w-96' src={profile} />
                     </div>
                     <div className='flex gap-7 mt-5'>

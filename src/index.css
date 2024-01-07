@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.bannerContainer{
+    @apply mt-60 md:mt-0 md:h-[100vh] md:flex  items-center justify-between  container mx-auto
+}
+
+.nameContainer{
+    @apply backdrop-blur-md bg-blue-600 bg-opacity-20  p-10 pb-40  flex justify-center
+}
+
+.typewriterContainer {
+  @apply text-lg md:text-4xl text-indigo-200 font-mono backdrop-blur-md bg-blue-600 bg-opacity-20 p-5 flex items-center;
+}
+
+.resumeContainer{
+    @apply flex flex-col md:flex-row  justify-start md:gap-10 gap-5 pt-5 px-4 md:px-0
+}
+
+.profileCss{
+    @apply mask mask-squircle bg-blue-600 backdrop-blur-md bg-opacity-20  -mt-40
+}
+
+.welcomeText{
+    @apply md:text-3xl text-lg text-center md:text-left text-indigo-200 backdrop-blur-md bg-blue-600 bg-opacity-20 p-5 
+}
