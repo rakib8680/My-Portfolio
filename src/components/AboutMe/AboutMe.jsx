@@ -11,33 +11,30 @@ const AboutMe = () => {
             <h1 className='text-4xl text-indigo-200 text-center'
                 data-aos="fade-down"
                 data-aos-duration="1500"
-                data-aos-easing="ease-in-out"
-            >About Me</h1>
+                data-aos-easing="ease-in-out">
+                About Me
+            </h1>
 
+            {/* divider  */}
             <div className='divider w-2/12 bg-[#97a5ff] h-1 rounded-full mx-auto '
                 data-aos="fade-left"
                 data-aos-duration="1700"
-                data-aos-easing="ease-in-out"
-            >
+                data-aos-easing="ease-in-out">
             </div>
 
-            <div className='aboutContainer' >
 
+            <div className='aboutContainer' >
                 {/* photo  */}
                 <div className='  bg-[#97a5ff] w-fit fancy-boarder2 '
                     data-aos="fade-right"
-                    data-aos-duration="1500"
-
-                >
+                    data-aos-duration="1500">
                     <img src={myself} className=' md:w-96 w-72 fancy-boarder2 relative top-5 left-5' />
                 </div>
 
                 <div className='text-indigo-200  md:w-1/2 w-[340px]' >
-
                     {/* about  */}
                     <div className=' backdrop-blur-md bg-blue-600 bg-opacity-20 p-5 text-base'
                         data-aos="fade-left"
-                        // data-aos-delay="900"
                         data-aos-duration="1500">
                         <h1 className=' font-mono '
                             data-aos="fade-left"

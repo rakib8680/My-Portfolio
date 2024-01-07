@@ -9,6 +9,7 @@ const singleProject = ({ project, index }) => {
 
     return (
         <div className={` md:flex ${flex} justify-center items-center gap-10 pb-20 `}>
+            {/* image  */}
             <div className='hover:z-10 transition-all  duration-200 '
                 data-aos="fade-left"
                 data-aos-duration="800"
@@ -16,7 +17,8 @@ const singleProject = ({ project, index }) => {
                 <img src={image} className=" md:w-[900px] md:h-[520px] md:rounded-md" />
             </div>
 
-            <div className=' backdrop-blur-md bg-blue-600 bg-opacity-20 md:p-10 p-4 text-base text-indigo-200 md:w-[700px] h-fit  md:rounded-md space-y-3  pb-10 '
+            {/* info  */}
+            <div className='projectInfoContainer'
                 data-aos="fade-right"
                 data-aos-duration="800"
                 data-aos-easing="ease-in-out">

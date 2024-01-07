@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import { FaAngleRight, FaFacebook, FaInstagram, FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Typewriter } from 'react-simple-typewriter'
 import profile from '../../assets/profile.png'
-import resume from '../../../public/MyResume.pdf';
+import resume from '../../assets/MyResume.pdf';
 
 AOS.init();
 

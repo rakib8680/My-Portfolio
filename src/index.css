@@ -2,35 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 /* Banner  */
-.bannerContainer{
-    @apply mt-60 md:mt-0 md:h-[100vh] md:flex  items-center justify-between  container mx-auto
+.bannerContainer {
+  @apply mt-60 md:mt-0 md:h-[100vh] md:flex  items-center justify-between  container mx-auto;
 }
 
-.nameContainer{
-    @apply backdrop-blur-md bg-blue-600 bg-opacity-20  p-10 pb-40  flex justify-center
+.nameContainer {
+  @apply backdrop-blur-md bg-blue-600 bg-opacity-20  p-10 pb-40  flex justify-center;
 }
 
 .typewriterContainer {
   @apply text-lg md:text-4xl text-indigo-200 font-mono backdrop-blur-md bg-blue-600 bg-opacity-20 p-5 flex items-center;
 }
 
-.resumeContainer{
-    @apply flex flex-col md:flex-row  justify-start md:gap-10 gap-5 pt-5 px-4 md:px-0
+.resumeContainer {
+  @apply flex flex-col md:flex-row  justify-start md:gap-10 gap-5 pt-5 px-4 md:px-0;
 }
 
-.profileCss{
-    @apply mask mask-squircle bg-blue-600 backdrop-blur-md bg-opacity-20  -mt-40
+.profileCss {
+  @apply mask mask-squircle bg-blue-600 backdrop-blur-md bg-opacity-20  -mt-40;
 }
 
-.welcomeText{
-    @apply md:text-3xl text-lg text-center md:text-left text-indigo-200 backdrop-blur-md bg-blue-600 bg-opacity-20 p-5 
+.welcomeText {
+  @apply md:text-3xl text-lg text-center md:text-left text-indigo-200 backdrop-blur-md bg-blue-600 bg-opacity-20 p-5;
 }
-
 
 /* About  */
-.aboutContainer{
-    @apply container mx-auto  flex flex-col-reverse md:flex-row items-center justify-center md:gap-60 gap-32 pt-20
+.aboutContainer {
+  @apply container mx-auto  flex flex-col-reverse md:flex-row items-center justify-center md:gap-60 gap-32 pt-20;
+}
+
+/* projects  */
+.projectInfoContainer {
+  @apply backdrop-blur-md bg-blue-600 bg-opacity-20 md:p-10 p-4 text-base text-indigo-200 md:w-[700px] h-fit  md:rounded-md space-y-3  pb-10;
 }
