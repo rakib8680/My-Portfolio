@@ -4,6 +4,7 @@
 
 
 
+/* Banner  */
 .bannerContainer{
     @apply mt-60 md:mt-0 md:h-[100vh] md:flex  items-center justify-between  container mx-auto
 }
@@ -26,4 +27,10 @@
 
 .welcomeText{
     @apply md:text-3xl text-lg text-center md:text-left text-indigo-200 backdrop-blur-md bg-blue-600 bg-opacity-20 p-5 
+}
+
+
+/* About  */
+.aboutContainer{
+    @apply container mx-auto  flex flex-col-reverse md:flex-row items-center justify-center md:gap-60 gap-32 pt-20
 }

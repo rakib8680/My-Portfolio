@@ -47,7 +47,8 @@ const Contact = () => {
             <div className='divider w-2/12 bg-[#97a5ff] h-1 rounded-full mx-auto'
                 data-aos="fade-left"
                 data-aos-duration="1000"
-                data-aos-easing="ease-in-out"></div>
+                data-aos-easing="ease-in-out">
+            </div>
             <div className='md:flex justify-evenly items-center '>
                 <div className="max-w-md w-full md:mx-4 p-8  bg-indigo-950 bg-opacity-20  "
                     data-aos="fade-up"
