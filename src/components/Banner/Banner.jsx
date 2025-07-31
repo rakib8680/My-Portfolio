@@ -3,7 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { FaAngleRight, FaFacebook, FaInstagram, FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Typewriter } from 'react-simple-typewriter'
-import profile from '../../assets/profile2.jpg'
+import profile from '../../assets/profile.png'
 import resume from '../../assets/MyResume.pdf';
 
 AOS.init();
@@ -59,7 +59,7 @@ const Banner = () => {
                         data-aos-delay="400"
                         data-aos-easing="ease-in-out"
                         className='profileCss profile-shadow'>
-                        <img className='w-96 ' src={profile} />
+                        <img className='w-96' src={profile} />
                     </div>
                     <div className='flex gap-7 mt-5'>
                         <a href="https://www.instagram.com/rakib_8680_/">

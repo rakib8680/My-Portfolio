@@ -19,11 +19,10 @@ const App = () => {
   return (
     <div >
       <motion.div className="progress-bar z-10" style={{ scaleX }} />
-      {/* <NabBar /> */}
       <Banner />
       <About />
-      <Projects/>
-      <Contact/>
+      <Projects />
+      <Contact />
       <Particle />
     </div>
   );

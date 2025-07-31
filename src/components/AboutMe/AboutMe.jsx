@@ -2,8 +2,11 @@
 import AOS from 'aos';
 AOS.init();
 import myself from '../../assets/myPhoto3.png'
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNode, FaStripe, FaBootstrap, } from 'react-icons/fa';
-import { SiMongodb, SiFirebase, SiTailwindcss, SiDaisyui, SiExpress } from 'react-icons/si'
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNode, FaStripe, FaBootstrap, FaGitAlt } from 'react-icons/fa';
+import { SiMongodb, SiFirebase, SiTailwindcss, SiDaisyui, SiExpress, SiTypescript, SiRedux, SiMui, SiMongoose, SiPostgresql, SiPrisma, SiSupabase, SiPostman, SiVercel } from 'react-icons/si'
+import { TbBrandNextjs, TbBrandVscode } from "react-icons/tb";
+import { BiLogoNetlify } from "react-icons/bi";
+
 
 const AboutMe = () => {
     return (
@@ -69,7 +72,7 @@ const AboutMe = () => {
                             data-aos="fade-right"
                             data-aos-duration="1300"
                             data-aos-easing="ease-in-out">My Stack</div>
-                        <div className=' md:flex gap-5 grid grid-cols-6'>
+                        <div className=' md:flex md:flex-wrap gap-5 grid grid-cols-6'>
                             <div data-aos="fade-left"
                                 data-aos-duration="1000"
                                 data-aos-easing="ease-in-out"
@@ -94,6 +97,13 @@ const AboutMe = () => {
                                 <FaJs size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='Java Script'
                                 />
                             </div>
+                            <div data-aos="fade-left"
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-delay="700">
+                                <SiTypescript size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='Type Script'
+                                />
+                            </div>
 
                             <div
                                 data-aos="fade-left"
@@ -101,6 +111,22 @@ const AboutMe = () => {
                                 data-aos-easing="ease-in-out"
                                 data-aos-delay="800">
                                 <FaReact size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='React Js'
+                                />
+                            </div>
+                            <div
+                                data-aos="fade-left"
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-delay="800">
+                                <SiRedux size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='Redux'
+                                />
+                            </div>
+                            <div
+                                data-aos="fade-left"
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-delay="800">
+                                <TbBrandNextjs size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='Next Js'
                                 />
                             </div>
 
@@ -135,7 +161,7 @@ const AboutMe = () => {
                                 data-aos-duration="1000"
                                 data-aos-easing="ease-in-out"
                                 data-aos-delay="1200">
-                                <SiDaisyui size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='DaisyUi'
+                                <SiMui size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='MaterialUi'
                                 />
                             </div>
 
@@ -150,8 +176,35 @@ const AboutMe = () => {
                             <div data-aos="fade-left"
                                 data-aos-duration="1000"
                                 data-aos-easing="ease-in-out"
+                                data-aos-delay="1300">
+                                <SiMongoose size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='Mongoose'
+                                />
+                            </div>
+                            <div data-aos="fade-left"
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-delay="1300">
+                                <SiPostgresql size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='PostgreSQL'
+                                />
+                            </div>
+
+                            <div data-aos="fade-left"
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-delay="1400">
+                                <SiPrisma size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='Prisma' />
+                            </div>
+                            <div data-aos="fade-left"
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-out"
                                 data-aos-delay="1400">
                                 <SiFirebase size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='Firebase' />
+                            </div>
+                            <div data-aos="fade-left"
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-delay="1400">
+                                <SiSupabase size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='Supabase' />
                             </div>
 
                             <div
@@ -162,12 +215,50 @@ const AboutMe = () => {
                                 <SiExpress size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='Express Js'
                                 />
                             </div>
+                            <div
+                                data-aos="fade-left"
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-delay="1500">
+                                <SiPostman size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='Postman'
+                                />
+                            </div>
+                            <div
+                                data-aos="fade-left"
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-delay="1500">
+                                <SiVercel size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='Vercel'
+                                />
+                            </div>
+                            <div
+                                data-aos="fade-left"
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-delay="1500">
+                                <BiLogoNetlify size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='Netlify'
+                                />
+                            </div>
 
                             <div data-aos="fade-left"
                                 data-aos-duration="1000"
                                 data-aos-easing="ease-in-out"
                                 data-aos-delay="1600">
                                 <FaStripe size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='Stripe'
+                                />
+                            </div>
+                            <div data-aos="fade-left"
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-delay="1600">
+                                <TbBrandVscode size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='VSCode'
+                                />
+                            </div>
+                            <div data-aos="fade-left"
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-delay="1600">
+                                <FaGitAlt size={10} className="!w-[45px]  !h-[45px] neonText2  p-2" title='Git'
                                 />
                             </div>
                         </div>
