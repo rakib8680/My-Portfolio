@@ -10,7 +10,7 @@ const Box = () => {
                 whileHover={{ scale: 1.2, rotate: 90 }}
                 whileTap={{ scale: 0.8, rotate: -90, borderRadius: "100%" }}
             >
-                <h1 className='text-lg text-center font-mono  bg-[#97a5ff] w-fit p-10 fancy-boarder'>Click <br /> Me </h1>
+                <h1 className='text-lg text-center font-mono  bg-[#97a5ff] w-fit p-10 fancy-boarder'>Click <br /> Here </h1>
             </motion.div>
         </Link>
     );
